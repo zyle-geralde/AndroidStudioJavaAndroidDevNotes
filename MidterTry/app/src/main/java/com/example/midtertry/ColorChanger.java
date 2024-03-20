@@ -350,6 +350,7 @@ public class ColorChanger extends AppCompatActivity {
         });
     }
     public void checkgame(){
+
         for(Button bt: btnlist){
             if(bt.getCurrentTextColor() == Color.RED){
                 colorindic++;
